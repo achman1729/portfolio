@@ -6,7 +6,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
+/* home page */
 .home{
     padding:0;
     margin:0;
@@ -14,7 +14,7 @@ body{
     left:0;
     min-width: 100%;
     min-height: 100%;
-    background-image: linear-gradient(to bottom right, blue, 40%, purple);
+    background-image: linear-gradient(to bottom right, #112351, 60%, #BF611E);
     background-repeat: no-repeat;
     position: fixed;
     z-index: 100;
@@ -24,20 +24,25 @@ body{
     color: #FDFFFC;
 }
 
-nav ul{
-    margin: 0px;
-    padding: 0px;
+#intro {
+    background-color: #d5dee2;
 }
 
-.nav-links {
-  
-    background-color: #253C78;
-    overflow: hidden;
-}
-li {
+/* navbar */
+ul{
+
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #253C78;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    top: 0;
+}
+
+li {
     float: left;
-    
 }
   
 li a {
@@ -45,23 +50,36 @@ li a {
     display: block;
     font-size: 20px;
     color: #FDFFFC;
-    text-align: right;
-    padding: 0.4em 1em;
+    text-align: center;
+    padding: 10px 1em;
   }
-  
-li a:hover {
-    color: #BF611E;
+
+li a:hover:not(.active) {
+    background-color: #112351;
+  }
+
+.active {
+    background-color: #BF611E;
   }
 
 footer{
-    font-size: 100%;
+    /* font-size: 100%;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 1%; */
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #BF611E;
+    color: white;
+    text-align: center;
 }
 
 /* blog page */
 .blog .container{
     margin: 100px;
+    overflow: hidden;
 }
 
 .blog hr{
@@ -72,6 +90,44 @@ footer{
     font-weight: 400;
     text-align: justify;
 }
-.blog p{
-    
+/* .blog p{
+
+} */
+
+/* contact */
+.contact{
+    background-color: #263760;
 }
+
+
+.contact input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FDFFFC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+}
+
+.contact input[type=submit] {
+    background-color: #112351;
+    color: #FDFFFC;
+    padding: 12px 20px;
+    border: 2px solid #d5dee2;
+    box-sizing: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact input[type=submit]:hover{
+    background-color: #BF611E;
+  }
+
+.contact .container {
+    margin: 200px auto;
+    width: 30vw;
+    border-radius: 5px;
+    background-color: #112351;
+    padding: 20px;   
+    }

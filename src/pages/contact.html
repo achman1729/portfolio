@@ -6,20 +6,30 @@
     <link rel="stylesheet" href="../style.css">
     <title>Contact</title>
 </head>
-<body>
+<body class="contact">
     <nav class="nav-links">
         <ul>
             <li><a href="/src/index.html">Home</a></li>
             <li><a href="/src/pages/blog.html">Blog</a></li>
             <li><a href="/src/pages/about.html">About</a></li>
             <li><a href="/src/pages/project.html">Project</a></li>
-            <li><a href="/src/pages/contact.html">Contact</a></li>
+            <li><a class="active" href="/src/pages/contact.html">Contact</a></li>
         </ul>
     </nav>
-    <section id="contact">
-        <h1>This is the contacts page</h1>
+    <section>
+        <div class="container">
+            <form action="">
+                <input type="text" id="name" name="name" placeholder="Your name.." >
+                <input type="text" id="email" name="emailaddress" placeholder="Your email address" >
+                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Your message here.." style="200px"></textarea>
+                <input class="button" type="submit" value="Submit">
+            </form>
+        </div>
     </section>
-    
-    <footer class="footer">This is the footer</footer>
+    <hr>
+
+    <footer class="footer">
+        <small>© 2020 Achin Mandotia </small>
+    </footer>
 </body>
 </html>
