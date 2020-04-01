@@ -1,0 +1,27 @@
+
+/* home page */
+.home{
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, #112351, 60%, #BF611E);
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 100;
+}
+
+.home h1{
+    color: #FDFFFC;
+}
+
+#intro {
+    background-color: #d5dee2;
+}
+
+
+
+
+

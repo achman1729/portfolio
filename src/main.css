@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #112351;
+}
+li {
+    font-size: 20px;
+    padding: 10px 1em;
+    list-style: none;
+}
+  
+li a {
+    text-decoration: none;
+    color: #FDFFFC;
+  }
+
+li a:hover:not(.active) {
+    background-color: #112351;
+  }
+
+.active {
+    background-color: #BF611E;
+  }
+
+/* footer */
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    background-color: #BF611E;
+    color: #d5dee2;
+}

@@ -1,0 +1,55 @@
+/* contact */
+.contact{
+    background-color: #263760;
+}
+
+.contact input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FDFFFC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.contact input[type=submit] {
+    background-color: #112351;
+    color: #FDFFFC;
+    padding: 12px 20px;
+    border: 2px solid #d5dee2;
+    box-sizing: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact input[type=submit]:hover{
+    background-color: #BF611E;
+  }
+
+.contact .form-container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    justify-content: center;
+    /* margin: 200px auto; */
+    /* width: 30vw; */
+    border-radius: 5px;
+    background-color: #112351;
+    padding: 20px;   
+    }
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    /* margin: 30% auto; */
+    background-color: #263760;
+}
+
+.form{
+    grid-column: 2 / 3;
+}
+
+.social-container i{
+    font-size: 5vw;
+}
