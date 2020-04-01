@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <title>Contact</title>
 </head>
 <body class="contact">
     <nav class="nav-links">
-        <ul>
-            <li><a href="/src/index.html">Home</a></li>
-            <li><a href="/src/pages/blog.html">Blog</a></li>
-            <li><a href="/src/pages/about.html">About</a></li>
-            <li><a href="/src/pages/project.html">Project</a></li>
-            <li><a class="active" href="/src/pages/contact.html">Contact</a></li>
-        </ul>
+        <li><a href="/src/index.html">Home</a></li>
+        <li><a href="/src/pages/blog.html">Blog</a></li>
+        <li><a href="/src/pages/about.html">About</a></li>
+        <li><a href="/src/pages/project.html">Project</a></li>
+        <li><a class="active" href="/src/pages/contact.html">Contact</a></li>
     </nav>
+    <header>
+        <div>
+            <ul class="social-container">
+                <li><a href="https://github.com/achman1729"><i class="fab fa-github-square"></i></a> </li>
+                <li><a href="https://www.linkedin.com/in/achin-mandotia"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://dev.to/achman1729"><i class="fab fa-dev"></i></a></li>
+            </ul>
+        </div>
+    </header>
     <section>
-        <div class="container">
-            <form action="">
-                <input type="text" id="name" name="name" placeholder="Your name.." >
-                <input type="text" id="email" name="emailaddress" placeholder="Your email address" >
-                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Your message here.." style="200px"></textarea>
-                <input class="button" type="submit" value="Submit">
-            </form>
+        <div class="form-container">
+            <div class="form">
+                <form action="">
+                    <input type="text" id="name" name="name" placeholder="Your name.." >
+                    <input type="text" id="email" name="email" placeholder="Your email address" >
+                    <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Your message here.."></textarea>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+            
         </div>
     </section>
     <hr>
