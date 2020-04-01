@@ -1,21 +1,31 @@
 /* blog page */
-.blog .container{
+.container{
+    font-family: 'Open Sans', sans-serif;
     overflow: hidden;
     max-width: 900px;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
+    z-index: 1;
 }
 
 .blog hr{
-	border: 0.5px solid #d5dee2;
+	border: 0.5px solid #112351;
 }
-.blog .date{
+.date{
+    color: #BF611E;
+    font-weight: 400;
+    font-style: italic;
     font-size: 1em;
     font-weight: 400;
     text-align: justify;
 }
-.blog p{
+
+.heading {
+    color:#112351;
+}
+
+p{
     text-align: justify;
-    
+    font-weight: 400;    
 }

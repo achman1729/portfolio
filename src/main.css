@@ -7,6 +7,7 @@ body{
     padding: 0px;
 }
 
+
 /* navbar */
 nav {
     display: flex;
@@ -15,6 +16,7 @@ nav {
     width: 100%;
     background-color: #112351;
 }
+
 li {
     font-size: 20px;
     padding: 10px 1em;
@@ -24,10 +26,11 @@ li {
 li a {
     text-decoration: none;
     color: #FDFFFC;
+    padding: 1px 5px;
   }
 
 li a:hover:not(.active) {
-    background-color: #112351;
+    background-color: #BF611E;
   }
 
 .active {
