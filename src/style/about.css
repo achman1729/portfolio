@@ -13,6 +13,11 @@ main{
     margin-bottom: 30px;
     grid-area: main;
 }
+.content a{
+    display: grid;
+    color: #BF611E;
+    text-decoration: none;
+}
 
 /* styling image */
 .pic{
