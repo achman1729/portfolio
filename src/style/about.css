@@ -23,6 +23,7 @@ main{
 .pic img{
     grid-column: 2 / 3;
     align-self: center;
+    justify-self: center;
     width: 100px;
     height: 100px;
 }
@@ -53,28 +54,7 @@ section{
     justify-self: center;
 }
 
-.skill-1 div{
-    display: grid; 
-    justify-items: center;
-    align-items: end;
-    height: 3.5em;
-}
-
-.skill-2 div{
-    display: grid; 
-    justify-items: center;
-    align-items: end;
-    height: 3.5em;
-}
-
-.skill-3 div{
-    display: grid; 
-    justify-items: center;
-    align-items: end;
-    height: 3.5em;
-}
-
-.skill-4 div{
+.skill-position{
     display: grid; 
     justify-items: center;
     align-items: end;
