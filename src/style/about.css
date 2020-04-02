@@ -15,6 +15,7 @@ main{
 }
 .content a{
     display: grid;
+    width: 62px;
     color: #BF611E;
     text-decoration: none;
 }
@@ -104,6 +105,7 @@ aside h3{
         grid-template-areas: 
             "header header header"
             "main sidebar sidebar";
+        margin: 0 1vw 11vw 0;
     }
 
     .skill{
