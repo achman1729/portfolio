@@ -1,0 +1,49 @@
+main{
+    height: 100vh;
+    display: flex;            /* establish flex container */
+    flex-direction: column;   /* stack flex items vertically */
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+  }
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    color: #FDFFFC;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    align-items: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+a{
+    display: flex;
+    color: #BF611E;
+    text-decoration: none;
+    font-size: .8em;
+    align-items: center;
+    height: 1.5em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+a:hover{
+    text-shadow: 3px 2px 5px #BF611E;
+}
+
+hr{
+    margin-top: 0;
+}
+
+span{
+    color: #BF611E;
+    font-weight: 700;
+    font-style: italic;
+}

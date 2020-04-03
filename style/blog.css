@@ -1,0 +1,31 @@
+/* blog page */
+.container{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    z-index: 1;
+}
+
+.blog hr{
+	border: 0.5px solid #112351;
+}
+.date{
+    color: #BF611E;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.heading {
+    color:#112351;
+}
+
+p{
+    text-align: justify;
+    font-weight: 400;    
+}

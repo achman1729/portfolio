@@ -1,0 +1,137 @@
+section, aside, main{
+    display: grid;
+    width: 90%;
+    margin: 0;
+  }
+
+p{
+    margin: 0;
+}
+/* main content */
+main{
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 30px;
+    grid-area: main;
+}
+.content a{
+    display: grid;
+    width: 62px;
+    color: #BF611E;
+    text-decoration: none;
+}
+
+/* styling image */
+.pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pic img{
+    grid-column: 2 / 3;
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-weight: 400; 
+    margin: 0 30px 10px 30px;
+}
+
+/* soft skills */
+section{
+    grid-area: header;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    margin: 0 30px 10px 30px;
+}
+.skill-1, .skill-2, .skill-3, .skill-4 {
+    background-color: #112351;
+    color: #BF611E;
+    border-radius: 50%;
+    width: 8em;
+    height: 6em;
+    justify-self: center;
+}
+
+.skill-position{
+    display: grid; 
+    justify-items: center;
+    align-items: end;
+    height: 3.5em;
+}
+
+h3 {
+    color: #112351;
+    justify-self: center;
+}
+/* tech skills */
+aside{
+    grid-area: sidebar;
+}
+
+aside h3{
+    align-self: end;
+}
+.tech-skill{
+    display: grid;
+    grid-template-columns:80px auto;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 10px;
+    width: 100%;
+    margin: 0 0 10px 30px;
+}
+
+.skill-name p{
+    color: #BF611E;
+}
+
+.skill-level{
+    background-color: #112351;
+}
+
+/* desktop */
+@media screen and (min-width: 961px){
+    .about {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header header"
+            "main sidebar sidebar";
+        margin: 0 1vw 11vw 0;
+    }
+
+    .skill{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 200px;
+        margin: 0 30px 10px 30px;
+    
+    }
+
+    .skill-1, .skill-3 {
+        background-color: #112351;
+        color: #BF611E;
+        border-radius: 50%;
+        width: 8em;
+        height: 6em;
+        justify-self: right;
+    }
+    
+    .skill-2, .skill-4 {
+        background-color: #112351;
+        color: #BF611E;
+        border-radius: 50%;
+        width: 8em;
+        height: 6em;
+        justify-self: left;
+    }
+}

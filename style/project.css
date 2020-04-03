@@ -1,0 +1,59 @@
+main{
+    display: grid;
+    width: 90%;
+    margin: 0;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin:10px 0 0 30px;
+}
+
+.project-img img{
+    display: grid;
+    width: 100%;
+}
+.project .content{
+    align-self: center;
+    justify-self: center;
+}
+
+/* .project-1{
+
+}
+
+.project-2{
+    grid-area: project-2;
+}
+
+.project-3{
+    grid-area: project-3;
+}
+
+.project-4{
+    grid-area: project-4;
+} */
+
+
+/* tablet mode */
+@media screen and (min-width: 450px) and (max-width: 960px){
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 1rem
+    }
+}
+
+/*desktop mode */
+@media screen and (min-width: 961px){
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        /* grid-gap: 1rem */
+    }
+    
+}
