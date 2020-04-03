@@ -14,9 +14,9 @@ During my research I was influenced and admired [Matthew Williamns website](http
 I like the simple yet attractive styling and structure of the website. 
 
 
-![matt home page]()
+![matt home page](https://github.com/achman1729/portfolio/blob/master/docs/Matthew_will_home.PNG)
 
-![about page]()
+![about page](https://github.com/achman1729/portfolio/blob/master/docs/mathew_about.PNG)
 
 ## Mock ups
 
