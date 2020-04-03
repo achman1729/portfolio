@@ -21,17 +21,17 @@ I like the simple yet attractive styling and structure of the website.
 ## Mock ups
 
 ### Mock up decision(desktop view)
-![about and blog]()
+![about and blog](https://github.com/achman1729/portfolio/blob/master/docs/desktop-about-blog.jpg)
 
-![projects and contact]()
+![projects and contact](https://github.com/achman1729/portfolio/blob/master/docs/desktop-projects-contact.jpg)
 
 ### Mock up decision(phone view)
-![about blog]()
+![about blog](https://github.com/achman1729/portfolio/blob/master/docs/mobile-about-blog.jpg)
 
-![project and contact]()
+![project and contact](https://github.com/achman1729/portfolio/blob/master/docs/mobile-project-contact.jpg)
 
 ## Navigation
-![navbar](link)
+![navbar](https://github.com/achman1729/portfolio/blob/master/docs/nav.PNG)
 
 ## Components used
 - Nav tag
@@ -39,7 +39,7 @@ I like the simple yet attractive styling and structure of the website.
 - anchor tags
 
 ## About page
-![About page]()
+![About page](https://github.com/achman1729/portfolio/blob/master/docs/About.PNG)
 
 ## Components used
 - Nav tag
@@ -47,7 +47,7 @@ I like the simple yet attractive styling and structure of the website.
 - Anchor tags
 
 ## Projects page
-![projects page]()
+![projects page](https://github.com/achman1729/portfolio/blob/master/docs/projects_desktop.PNG)
 
 ## Components used
 - Nav tag
@@ -57,7 +57,7 @@ I like the simple yet attractive styling and structure of the website.
 - Footer
 
 ## Blog Page
-![blog page]()
+![blog page](https://github.com/achman1729/portfolio/blob/master/docs/blog.PNG)
 
 ## Components used
 - Nav tag
@@ -65,8 +65,7 @@ I like the simple yet attractive styling and structure of the website.
 - Footer
 
 ## Contact page
-![mock]()
-![contact page]()
+![contact page](https://github.com/achman1729/portfolio/blob/master/docs/Contacts.PNG)
 
 ## Components used
 - Nav tag
